@@ -3,47 +3,47 @@ var questionIndex = 0
 var scoreIndex = 0
 var questionList = [
     {
-        question: "What is the capital of France?",
+        question: "Commonly used data types DO NOT include:",
         answers: [
-            "London",
-            "Berlin",
-            "Madrid",
-            "Paris"
+            "Strings",
+            "Booleans",
+            "Alerts",
+            "Numbers"
         ],
-        correctAnswer: "Paris"
+        correctAnswer: "Alerts"
     },
 
     {
-        question: "What is the capital of England?",
+        question: "The condition in an if/else state is enclosed with _____.",
         answers: [
-            "London",
-            "Berlin",
-            "Madrid",
-            "Paris"
+            "Quotes",
+            "Curly brackets",
+            "Parentheses ",
+            "Square brackets"
         ],
-        correctAnswer: "London"
+        correctAnswer: "Parentheses"
     },
 
     {
-        question: "What is the capital of Germany?",
+        question: "Arrays in JS can be used to store_______.",
         answers: [
-            "London",
-            "Berlin",
-            "Madrid",
-            "Paris"
+            "Numbers and strings",
+            "Other arrays",
+            "Booleans",
+            "All of the above"
         ],
-        correctAnswer: "Berlin"
+        correctAnswer: "All of the above"
     },
 
     {
-        question: "What is the capital of Scotland?",
+        question: "String values must be enclosed within ______ when being assigned to variables?",
         answers: [
-            "London",
-            "Berlin",
-            "Madrid",
-            "Paris"
+            "Commas",
+            "Curly brackets",
+            "Quotes",
+            "Parentheses"
         ],
-        correctAnswer: "Madrid"
+        correctAnswer: "Commas"
     },
 
 ]
@@ -64,7 +64,7 @@ function startQuiz() {
 }
 
 function startTimer() {
-    var sec = 60;
+    var sec = 30;
     var timer = setInterval(function () {
         document.querySelector('#timer-display').innerHTML = '00:' + sec;
         sec--;
@@ -120,14 +120,6 @@ function checkAnswer(event) {
     // Clear question/answers
     questionIndex++
     displayQuestion()
-}
-
-function scoreQuiz() {
-    //stop timer
-    //collect score
-    //display score
-    //enter intials local storage
-    // restart quiz button, call start quiz
 }
 
 startButton.addEventListener('click', startQuiz)
