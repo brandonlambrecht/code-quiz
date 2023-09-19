@@ -48,8 +48,6 @@ var questionList = [
 
 ]
 
-// Write question object
-
 
 function startQuiz() {
     var homePage = document.querySelector("#homepage")
@@ -70,7 +68,6 @@ function startTimer() {
         sec--;
         if (sec < 0) {
             clearInterval(timer);
-            // call scorepage function
         }
     }, 1000);
 }
@@ -89,16 +86,12 @@ function displayQuestion() {
         answerBtn.textContent = currentQuestion.answers[i]
         answerQuestion.append(answerBtn)
         answerBtn.addEventListener('click', checkAnswer)
+        answerBtn.style.margin = '.5em';
 
     }
-    // Grab the rest of the HTML
-    // console.log(question[i].question)
+
     quizHead.textContent = currentQuestion.question //This populates HTML
-    // Call checkAnswer function
-    // Populate HTML
-    // Get click value 
-    // Time out to next question
-    // If no more questions, display quiz page/none, display score page/flex
+
 }
 
 function checkAnswer(event) {
@@ -115,9 +108,6 @@ function checkAnswer(event) {
         }
     }
 
-    // Check if value is correct
-    // Update Score
-    // Clear question/answers
     questionIndex++
     displayQuestion()
 }

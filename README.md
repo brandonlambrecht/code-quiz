@@ -2,13 +2,16 @@
 
 ## Description
 
-This repository ...
+This repository displays multiple interactive pages starting with a home page to start the quiz. Once the start button it hit the quiz starts and  the timer will count down from 30 seconds, cylcing through each question once an answer is clicked.
 
 The goal of this project:
 
+- Implement Javascript functions, variables, and loops to create an interactive web page
+- Create an object array for all questions, answers, and correct answers
+- Use CSS to format pages
+- Use event listener to start the quiz
 
-
-The motivation ...
+The motivation behind the repository is to create an interactive quiz with dynamic elements triggered by the user.
 
 ## Installation
 
@@ -25,7 +28,7 @@ To use project locally, follow these steps:
 ## Usage
 
 1. See below for snap shot of code quiz webpage. 
-Image![Code Quiz](./assets/screenshot.png)
+Image![Code Quiz](./assets/images/quiz-homepage.png)
 
 
 2. Follow deployed link for full access to
