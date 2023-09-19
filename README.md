@@ -27,8 +27,8 @@ To use project locally, follow these steps:
 ## Usage
 
 1. See below for snap shot of code quiz webpage. 
-Image![Code Quiz](./assets/images/quiz-homepage.png)
+Image![Code Quiz](./Assets/quiz-homepage.png)g
 
 
 2. Follow deployed link for full access to
-[Password Generator]()
+[Code Quiz]()
