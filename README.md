@@ -27,8 +27,8 @@ To use project locally, follow these steps:
 ## Usage
 
 1. See below for snap shot of code quiz webpage. 
-Image![Code Quiz](./quiz-homepage.png)
+Image![Code Quiz](./screenshot.png)
 
 
 2. Follow deployed link for full access to
-[Code Quiz]()
+[Code Quiz](https://brandonlambrecht.github.io/code-quiz/)
