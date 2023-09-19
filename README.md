@@ -27,7 +27,7 @@ To use project locally, follow these steps:
 ## Usage
 
 1. See below for snap shot of code quiz webpage. 
-Image![Code Quiz](./Assets/quiz-homepage.png)g
+Image![Code Quiz](./quiz-homepage.png)
 
 
 2. Follow deployed link for full access to
